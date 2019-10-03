@@ -5,4 +5,4 @@ Communicate with clients, provide service lists and costs, and accept payments/ 
 <b>Prerequisites</b>
 This project is being created with Visual Studio 2019.
 
-<b>This README will be updated during after completing sprints for this website.</b>
+<b>This README will be updated during/after completing sprints for this website.</b>
