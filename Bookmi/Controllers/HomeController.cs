@@ -13,8 +13,6 @@ namespace Bookmi.Controllers
         public IActionResult Index()
         {
             return View();
-            
-
         }
 
         public IActionResult Privacy()
