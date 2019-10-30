@@ -1,5 +1,8 @@
 ﻿
-
+html {
+    background: url(../images/outside-background.jpg) no-repeat center center fixed;
+    background-size: contain;
+}
 h1 {
     color: brown; 
     
@@ -22,12 +25,14 @@ a.navbar-brand {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    
 }
 @media (min-width: 768px) {
-  html {
-    font-size : 30px;
-  }
+    html {
+        font-size: 30px;
+       
+    }
 }
 
 .border-top {
@@ -58,8 +63,8 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   color: aquamarine;
-  background-image: url(../images/ocean.jpg);
-  background-repeat: no-repeat;
+  
+  
 .footer {
   position: absolute;
   bottom: 0;
