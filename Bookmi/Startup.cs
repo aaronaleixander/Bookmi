@@ -72,6 +72,11 @@ namespace Bookmi
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            // Create custom roles
+            var serviceProvider = app.ApplicationServices.GetRequiredService<IServiceProvider>().CreateScope();
+            IdentityHelper.CreateRoles(serviceProvider.ServiceProvider, IdentityHelper.ProviderAccount, IdentityHelper.UserAccount)
+                          .Wait();
         }
     }
 }
