@@ -9,7 +9,7 @@ namespace Bookmi.Data
 {
     internal static  class IdentityHelper
     {
-        internal static readonly string ProviderAccount = "ProAccount";
+        internal static readonly string ProviderAccount = "ProviderAccount";
         internal static readonly string UserAccount = "UserAccount";
 
         internal static async Task CreateRoles(IServiceProvider provider, params string[] roles)
